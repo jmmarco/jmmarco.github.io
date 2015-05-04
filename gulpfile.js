@@ -13,7 +13,7 @@ gulp.task('scripts', function() {
 	gulp.src(paths.scripts)
 		//.pipe(concat('all.min.js'))
 		.pipe(uglify())
-		.pipe(gulp.dest('dist/js'));
+		.pipe(gulp.dest('js'));
 
 });
 
@@ -21,7 +21,7 @@ gulp.task('scripts', function() {
 gulp.task('styles', function() {
 	gulp.src(paths.styles)
 		.pipe(minifycss())
-		.pipe(gulp.dest('dist/css'));
+		.pipe(gulp.dest('css'));
 
 });
 
@@ -32,7 +32,7 @@ gulp.task('content', function() {
 				empty: true,
 				quotes: true
 		}))
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest(''));
 });
 
 // Optimize Images
@@ -45,7 +45,7 @@ gulp.task('images', function () {
 			svgoPlugins: [{removeViewBox: false}],
 			use: [pngquant()]
 		}))
-		.pipe(gulp.dest('dist/img'));
+		.pipe(gulp.dest('img'));
 
 	gulp.src( paths.images[1] )
 		.pipe(imagemin({
@@ -54,7 +54,7 @@ gulp.task('images', function () {
 			svgoPlugins: [{removeViewBox: false}],
 			use: [pngquant()]
 		}))
-		.pipe(gulp.dest('dist/img'));
+		.pipe(gulp.dest('img'));
 
 });
 
