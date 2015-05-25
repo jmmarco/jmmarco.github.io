@@ -123,6 +123,9 @@ ul {
 
 li {
     display: inline;
+    margin-left: 22px;
+    margin-right: 22px;
+
 }
 
 
