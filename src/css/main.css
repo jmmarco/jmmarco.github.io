@@ -123,10 +123,7 @@ ul {
 
 li {
     display: inline;
-    margin-left: 22px;
-    margin-right: 22px;
-
-}
+    margin: 18px;
 
 .biopic {
     border-radius: 100%;
