@@ -1,66 +1,102 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Juan Marco : Personal Website</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Juan Martin Marco</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Muli">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+    <header class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="biopic img-responsive" src="img/jmm_2015_small.png" alt="Juan Marco">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="text-thin title-super">Juan Martin Marco</h1>
+          <h4>Front-End Web Developer</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="img/code_back.jpeg" alt="code background picture">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Look me up</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a href="https://github.com/jmmarco" id="github"><img class="img-responsive center-block" src="img/SVG/0437-github4.svg" alt="GitHub"></a>
+          <h3 class="text-uppercase">GitHub</h3>
+        </div>
+        <div class="col-md-4">
+          <a href="http://ar.linkedin.com/in/jmmarco" id="linkedin"><img class="img-responsive center-block" src="img/SVG/0458-linkedin2.svg" alt="LinkedIn"></a>
+          <h3 class="text-uppercase">LinkedIn</h3>
+        </div>
+        <div class="col-md-4">
+          <a href="http://twitter.com/jmmarco" id="twitter"><img class="img-responsive center-block" src="img/SVG/0404-twitter3.svg" alt="Twitter"></a>
+          <h3 class="text-uppercase">Twitter</h3>
+        </div>
+      </div>
+     </main>
+     <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+     </div>
+     <div class="container">
+      <footer class="row text-right">
+        <div class="col-md-12">
+          <p>&copy; Juan Martin Marco 2015</p>
+        </div>
+      </footer>
+     </div>
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-        <!-- Add your site or application content here -->
-        <header id="header" class="main">
-            <div>
-                <figure>
-                    <img class="biopic"src="https://s.gravatar.com/avatar/64aacb83ff9853fd34495f700a5d8451?s=200" alt="Juan Marco">
-                </figure>
-                <h1>Juan Martin Marco</h1>
-                <h2>Front End Web Developer</h2>
-                <hr>
-            </div>
-        </header><!-- /header -->
-        <nav class="social">
-           <ul>
-                <li>
-                    <a href="http://ar.linkedin.com/in/jmmarco" id="linkedin"><img src="img/SVG/0458-linkedin2.svg" alt="LinkedIn"></a>
-                </li>
-                <li>
-                    <a href="https://github.com/jmmarco" id="github"><img src="img/SVG/0437-github4.svg" alt="GitHub"></a>
-                </li>
-                <li>
-                    <a href="http://twitter.com/jmmarco" id="twitter"><img src="img/SVG/0404-twitter3.svg" alt="Twitter"></a>
-                </li>
-            </ul>
-        </nav>
-        <footer>
-            <p>Made with &#9825; in Buenos Aires </p>
-        </footer>
+        <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
+            e.src='http://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-62517373-1','auto');ga('send','pageview');
+            ga('create','UA-62517373-1,'auto');ga('send','pageview');
         </script>
     </body>
 </html>
