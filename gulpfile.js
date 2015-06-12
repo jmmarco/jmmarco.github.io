@@ -70,7 +70,7 @@ var paths = {
 	content: ['src/*.html'],
 	scripts: ['src/js/*.js'],
 	styles: ['src/css/*.css'],
-	images: ['src/img/*.png', 'src/img/*.jpg']
+	images: ['src/img/*.png', 'src/img/*.jpg', 'src/img/*.jpeg']
 };
 
 // Call the Gulp task
