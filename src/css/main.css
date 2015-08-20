@@ -2,7 +2,8 @@
    Author's custom styles
    ========================================================================== */
 .biopic {
-	border-radius: 100%;
+	width: 100px;
+	border-radius: 50%;
 }
 
 
